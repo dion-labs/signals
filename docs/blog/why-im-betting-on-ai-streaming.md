@@ -31,7 +31,7 @@ I’m building DionLabs to prove it.
 | Pillar | Goal | Status |
 | :--- | :--- | :--- |
 | **The Hub** | [dionlabs.ai](https://dionlabs.ai) | 🟢 Live |
-| **The Voice** | [signals.dionlabs.ai](https://blog.dionlabs.ai) | 🔵 This Blog |
+| **The Voice** | [signals.dionlabs.ai](https://signals.dionlabs.ai) | 🔵 This Blog |
 | **The Shovel** | [voxta-client](https://voxta.dionlabs.ai) | 🟡 Open Source Beta |
 | **The OS** | Streaming OS | 🔴 In Development |
 

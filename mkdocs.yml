@@ -1,6 +1,6 @@
 site_name: "DionLabs | Signals"
 site_description: "The Engineering Voice of DionLabs. Research, streaming architecture, and AI development."
-site_url: "https://blog.dionlabs.ai"
+site_url: "https://signals.dionlabs.ai"
 
 theme:
   name: material
