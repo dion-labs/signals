@@ -1,5 +1,5 @@
 ---
-date: 2026-01-03
+date: 2026-01-01
 authors:
   - d
 categories:
@@ -15,6 +15,8 @@ slug: why-im-betting-on-ai-streaming
 ---
 
 # Why I'm Betting on the AI Streaming OS (And Building It In Public)
+
+:material-clock-outline: *4 min read*
 
 > "It is better to build something 100 people love, than something a large number of people like." — Sam Altman
 
@@ -68,8 +70,23 @@ My rule for DionLabs is simple: **If it doesn't improve the stream or the code, 
 I’m documenting the entire process of building this "Streaming OS." This blog (Signals) will be the place where I break down the architecture, the failures, and the breakthroughs.
 
 *   **Check out the code**: [dion-labs/voxta-client](https://github.com/dion-labs/voxta-client)
-*   **Watch the system break live**: [twitch.tv/dionlabs](https://twitch.tv/dionlabs)
+*   **Watch the system break live**: [twitch.tv/d_precated](https://twitch.tv/d_precated)
 *   **Build your own agent**: [voxta.dionlabs.ai](https://voxta.dionlabs.ai)
 
 Stay tuned. The frequency is just getting started.
+
+---
+
+### Signal Statistics
+<div class="feedback-stats">
+  <div class="stat-item">
+    <span id="view-count">0</span> views
+  </div>
+  <button id="like-btn" class="like-button">
+    Send Heart Signal (<span id="like-count">0</span>)
+  </button>
+</div>
+
+!!! info "Signal Verification"
+    Your interaction helps us prioritize research and development. Each heart sent is a signal to keep building in this direction.
 

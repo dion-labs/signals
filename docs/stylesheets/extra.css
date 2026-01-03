@@ -71,3 +71,66 @@
   font-weight: 700;
 }
 
+/* Feedback (Likes) Styling */
+.md-feedback {
+  background-color: #0a0a0d;
+  border: 1px solid rgba(0, 242, 255, 0.1);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* Feedback Stats & Like Button */
+.feedback-stats {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.8rem;
+  color: #a0a0b0;
+  margin: 1.5rem 0;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.stat-item i {
+  color: #00f2ff;
+}
+
+.like-button {
+  background: rgba(74, 0, 224, 0.1);
+  border: 1px solid rgba(74, 0, 224, 0.3);
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  transition: all 0.3s ease;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.8rem;
+}
+
+.like-button:hover:not(:disabled) {
+  background: rgba(0, 242, 255, 0.1);
+  border-color: #00f2ff;
+  box-shadow: 0 0 10px rgba(0, 242, 255, 0.2);
+}
+
+.like-button.active {
+  background: #4a00e0;
+  border-color: #00f2ff;
+  color: #fff;
+  cursor: default;
+}
+
+.like-button.loading {
+  opacity: 0.6;
+  pointer-events: none;
+}
+

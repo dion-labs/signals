@@ -1,4 +1,5 @@
 mkdocs-material>=9.5.0
+mkdocs-macros-plugin>=1.0.0
 mkdocs-blog-plugin>=0.2.0
 # mkdocs-material already includes the blog plugin logic in newer versions, 
 # but we can list it explicitly if using the standalone one.

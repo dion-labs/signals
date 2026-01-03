@@ -23,12 +23,21 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - path: javascripts/firebase-feedback.js
+    type: module
+
+extra:
+  analytics:
+    provider: google
+    property: G-61ZYV30HGQ
+  
 copyright: "© 2025 DionLabs.ai"
 
 plugins:
   - search
   - blog:
-      blog_dir: posts
+      blog_dir: blog
       post_date_format: "MMMM D, YYYY"
       pagination_per_page: 5
       authors_file: "{blog}/authors.yml"
@@ -37,13 +46,13 @@ plugins:
         - Engineering
         - Announcements
         - Tutorials
+  - macros: {}
 
 nav:
   - DionLabs.ai: https://dionlabs.ai
-  - Blog: index.md
+  - Home: index.md
   - Projects:
     - Voxta Client: https://voxta.dionlabs.ai
-  - Archive: archive.md
 
 markdown_extensions:
   - admonition
