@@ -1,0 +1,64 @@
+site_name: "DionLabs | Signals"
+site_description: "The Engineering Voice of DionLabs. Research, streaming architecture, and AI development."
+site_url: "https://blog.dionlabs.ai"
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: deep-purple
+    accent: cyan
+  font:
+    text: JetBrains Mono
+    code: JetBrains Mono
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - content.code.copy
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+extra_css:
+  - stylesheets/extra.css
+
+copyright: "© 2025 DionLabs.ai"
+
+plugins:
+  - search
+  - blog:
+      blog_dir: posts
+      post_date_format: "MMMM D, YYYY"
+      pagination_per_page: 5
+      authors_file: "{blog}/authors.yml"
+      categories_allowed:
+        - Research
+        - Engineering
+        - Announcements
+        - Tutorials
+
+nav:
+  - DionLabs.ai: https://dionlabs.ai
+  - Blog: index.md
+  - Projects:
+    - Voxta Client: https://voxta.dionlabs.ai
+  - Archive: archive.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets:
+      base_path: ["."]
+  - pymdownx.superfences
+  - tables
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+

@@ -1,0 +1,14 @@
+[project]
+name = "dionlabs-signals"
+version = "0.1.0"
+description = "The engineering blog for DionLabs"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mkdocs-material>=9.5.0",
+]
+
+[tool.uv]
+managed = true
+dev-dependencies = []
+

@@ -1,0 +1,6 @@
+mkdocs-material>=9.5.0
+mkdocs-blog-plugin>=0.2.0
+# mkdocs-material already includes the blog plugin logic in newer versions, 
+# but we can list it explicitly if using the standalone one.
+# Actually, material 9+ has built-in blog support.
+

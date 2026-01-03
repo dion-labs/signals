@@ -1,0 +1,10 @@
+authors:
+  d:
+    name: D
+    description: Founder of DionLabs
+    avatar: https://github.com/dion-labs.png
+    links:
+      - icon: fontawesome/brands/github
+        link: https://github.com/dion-labs
+      - icon: fontawesome/brands/twitch
+        link: https://twitch.tv/dionlabs
