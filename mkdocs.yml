@@ -4,6 +4,8 @@ site_url: "https://signals.dionlabs.ai"
 
 theme:
   name: material
+  favicon: favicon.ico
+  custom_dir: overrides
   palette:
     scheme: slate
     primary: deep-purple
