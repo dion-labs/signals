@@ -28,7 +28,6 @@ extra_css:
 extra_javascript:
   - path: javascripts/firebase-feedback.js
     type: module
-  - javascripts/cloudflare-analytics.js
 
 extra: {}
 copyright: "© 2026 DionLabs.ai · <a href=\"https://dionlabs.ai/privacy\">Privacy</a> · <a href=\"https://dionlabs.ai/terms\">Terms</a> · <a href=\"mailto:support@dionlabs.ai\">Contact</a>"
